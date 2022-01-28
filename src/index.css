@@ -1,13 +1,110 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+#Context{
+ display: flex;
+ justify-content: space-evenly;
+ padding-top: 10px;
 }
+#cards{
+  display: flex;
+}
+#btn{
+  width: 54px;
+    height: 28px;
+    border-radius: 4px;
+    border-style: none;
+    /* border-block-style: none; */
+    background-color: #2392f1;
+    margin: 4px;
+}
+#mainImg img{
+  height: 200px;
+  width: 180px;
+}
+#searchBar input{
+  height: 30px;
+  background-color: grey;
+  color: white;
+  border-style: none;
+  margin-top: 6px;
+}
+
+/* //Room  */
+#channel img, #Creator img{
+  border-radius: 50%;
+  margin: 2px;
+  height: 30px;
+  width: 30px;
+}
+#home{
+  border-right: 1px solid grey;
+  margin-right: 3px;
+}
+#channel p, #Creator p{
+  margin: 5px;
+}
+#channel button{
+  background-color: #1256ef;
+    width: 39px;
+    height: 26px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 3px;
+    float: right;
+}
+#Creator button{
+  background-color: #1256ef;
+  width: 49px;
+  height: 26px;
+  margin: 5px;
+  border-style: none;
+  border-radius: 3px;
+  float: right;
+}
+#boxBtn{
+  background-color: red;
+  width: 50px;
+  border-style: none;
+  border-radius: 2px;
+  margin: 5px;
+
+}
+#mainImg{
+  /* position: absolute; */
+}
+#eventBox{
+  margin: 10px;
+}
+#see_more{
+  color: blue;
+}
+.name{
+  color: grey;
+}
+#view{
+  position: relative;
+  /* top: -5px; */
+  
+}
+@media (min-width: 576px) { 
+ 
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
